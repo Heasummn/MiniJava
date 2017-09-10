@@ -57,6 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="what-happens.html" />
+    
     
 
     </head>
@@ -91,6 +93,19 @@
             
                     
                     Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="what-happens.html">
+            
+                <a href="what-happens.html">
+            
+                    
+                    Creating a Program
             
                 </a>
             
@@ -150,6 +165,8 @@
 <p>If you&apos;re reading this book, you&apos;ve probably used a compiler in the past, but that doesn&apos;t necessarily mean you know what it is, or how it works. A compiler has a simple job, it transforms code written in some language to code written in some other language. But we can be even more abstract, all a compiler really does is take some input, and changes it to something else. </p>
 <p>You&apos;ve probably used a calculator before, you give the calculator some input <code>3 + 4</code>, and it will give you some output, like <code>7</code>. That is in essence, all a compiler does. </p>
 <p>A compiler takes in a &quot;source language&quot;, and outputs a &quot;target language&quot;. In the case of our calculator the source language is a mathematical expression, and the target language is also a mathematical expression. If you&apos;ve used Java, the source language is Java, and the target language is JVM bytecode (if you&apos;ve never heard that word before, don&apos;t worry, we will discuss it in later sections of this book). </p>
+<h2 id="so-what-why-should-i-care-about-compilers">So what, why should I care about compilers?</h2>
+<p>Compilers are everywhere. The browser you&apos;re reading this on was made using a compiler. The text editor I&apos;m writing this on was made using a compiler. Almost every tool, program, or piece of software must go through some sort of compiler. Yet, many programmers think of compilers as magical objects. They take some input, perform some black magic, and make everything work. That should not be how people view compilers, understanding the internals of a compiler, what goes on inside one, will make you a better programmer. Compilers are also fun projects, being able to write a hello world program in something you made is an amazing feeling. </p>
 <h2 id="what-is-minijava">What is &quot;MiniJava&quot;?</h2>
 <p>MiniJava is a subset of the Java programming language. It was created by Andrew Appel as a source language for his compiler books, we will modify it a bit and use it as the source language for this book. You do not need to know Java to understand MiniJava, however some knowledge of OOP is helpful. We won&apos;t be discussing MiniJava for quite some time, so don&apos;t worry about it for now. </p>
 
@@ -180,6 +197,10 @@
             
                 
                 
+                <a href="what-happens.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Creating a Program">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
             
         
     </div>
@@ -187,7 +208,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-09-10T00:00:59.667Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-09T23:59:13.356Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Creating a Program","level":"1.2","depth":1,"path":"what-happens.md","ref":"what-happens.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-09-10T00:33:15.168Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-10T00:29:28.009Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
